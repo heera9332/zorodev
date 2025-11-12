@@ -7,7 +7,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm dist node_modules -r"
   },
   "author": "Heera Singh",
   "license": "ISC",
@@ -43,7 +44,10 @@
   ],
   "dependencies": {
     "clsx": "^2.1.1",
-    "tailwind": "^4.0.0",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.17"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
