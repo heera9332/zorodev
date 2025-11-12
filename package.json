@@ -1,6 +1,6 @@
 {
   "name": "zorodev",
-  "version": "0.0.1",
+  "version": "0.0.10",
   "description": "Reusable react components",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
